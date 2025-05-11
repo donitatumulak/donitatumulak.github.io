@@ -1,0 +1,151 @@
+/*Page Introduction*/
+.section-introduction {
+  text-align: center;
+}
+
+.text h2 {
+  margin-bottom: 5px;
+}
+
+.section-introduction img {
+  margin-top: 10px;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+  box-shadow: 0, 0, 0, 0;
+}
+
+/*Why Help Matters Section*/
+.why-help-container {
+  display: flex;
+  align-items: center;      
+  justify-content: center;  
+  gap: 40px;                
+  flex-wrap: wrap; 
+  margin: 40px auto;         
+}
+
+.why-help,
+.image-container {
+  flex: 1;
+  min-width: 20%;         
+}
+
+.text {
+  margin: 30px 0 30px 60px;
+  text-align: justify;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;      
+  margin: 30px 50px 30px 0;
+}
+
+/*Become a Volunteer Section*/
+.volunteer-info {
+  flex: 1;
+  padding-top: 5px;
+}
+
+.volunteer-info ul, .donate-text ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.volunteer-info h2, 
+.donate-text h2 {
+  margin-bottom: 0px;
+}
+
+.volunteer-info button {
+  width: auto;          
+  display: inline-block; 
+  padding: 10px 20px;   
+  margin: 10px auto; 
+}
+
+/*Donate Section*/
+.donate-section, .partnerships{
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.donate-section h2,
+.partnerships h2 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.donate-intro, .partnerships-intro {
+  max-width: 80%;
+  margin: 10px auto 40px;
+  text-align: justify;
+}
+
+.donate-methods,
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.donate-methods p {
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-style: oblique;
+}
+
+.donate-box {
+  background-color: #fff;
+  border: 2px solid #d9b99b;
+  border-radius: 15px;
+  padding: 20px;
+  width: 100%;
+  max-width: 280px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.donate-box h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.donate-box img{
+  display: block;
+  margin: 0 auto 10px;
+  width: 120px;
+  height: auto;
+  box-shadow: 0 0 0 0;
+}
+
+/*Partnerships Section*/
+.partner-logo{
+  display: block;
+  margin: 0 15px 5px 10px;
+  width: 200px;
+  height: auto;
+  box-shadow: 0 0 0 0;
+}
+
+/*Contact Information Section*/
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  justify-content: center; 
+  text-align: center;
+  padding: 20px;
+}
+
+.contact h2 {
+  margin: 10px 10px;
+}
+
+.contact button {
+  margin-bottom: 10px;
+}

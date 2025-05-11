@@ -1,0 +1,92 @@
+/* MEDIA QUERY FOR BROWSE PAGE */
+@media (max-width: 768px) {
+  /* Introduction to Browse Page Section*/
+  .browse-intro {
+    margin-top: 1rem;
+  }
+  .browse-intro p {
+    padding: 0 2rem; 
+  }
+
+  .search-bar {
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .search-bar input {
+    width: 85%;
+    max-width: none;
+    height: fit-content;
+    margin: 0;
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .search-bar button {
+    padding: 10px 15px;
+    width: auto;
+    flex-shrink: 0;
+    margin: 0;
+  }
+
+  .search-bar button img {
+    width: 12px;
+    height: 12px;
+  }
+
+  .animal-icons {
+    padding: 0 2rem; 
+  }
+
+  .animal-icons img {
+    width: 50px;
+    height: 50px;
+  }
+
+  /* Animal Cards Section */
+  .animal-cards {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px;
+    padding: 20px 10px;
+  }
+
+  .card {
+    padding: 15px; 
+    width: 95%; 
+  }
+
+  .animal-detail img {
+    height: auto; 
+    max-height: 180px; 
+    width: 100%; 
+    object-fit: cover; 
+  }
+
+  /* CTA Section */
+  .cta-section {
+    padding: 30px 20px; 
+  }
+
+  .cta-text p {
+    text-align: justify;
+    padding: 0 2rem; 
+  }
+
+  .cta-text button {
+    margin-top: 10px; 
+    margin-bottom: 10px;
+  }
+
+  .cta-button {
+    padding: 10px 20px;
+    width: fit-content; 
+    margin: 0 auto;      
+  }
+
+  /* No Result Gif */
+  .noResultsGif img {
+    max-width: 100%;
+    height: auto; 
+  }
+}

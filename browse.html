@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browse</title>
+    <link rel="stylesheet" href="pawkalinga-styles/general-style.css">
+    <link rel="stylesheet" href="pawkalinga-styles/browse-style.css" />
+    <link rel="stylesheet" href="pawkalinga-styles/browse-mq.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Fredoka:wght@300..700&family=Patrick+Hand&display=swap" rel="stylesheet">
+  </head>
+  <body> 
+    <header>
+      <nav>
+        <div class="logo-container">
+          <img src="pawkalinga-photos/pawkalinga-logo.png" alt="Pawkalinga Logo" class="nav-logo" />
+        </div>
+        <div class="menu-toggle" id="mobileMenu">&#9776;</div>
+        <ul class="nav-list">
+          <li><a href="index.html"> Home</a></li>
+          <li><a href="browse.html"> Browse</a></li>
+          <li><a href="adopt.html"> Adopt</a></li>
+          <li><a href="volunteer.html"> Volunteer or Donate</a></li>
+          <li><a href="about-us.html"> About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="browse-intro" id="browseIntro">
+        <h1>Browse Our Rescued Animals</h1>
+        <p>Meet your future companion! Explore our lovable cats and dogs ready for a forever home.</p>
+      
+        <div class="search-bar">
+          <input type="text" placeholder="Search by name, age, type, or description..." id="searchInput" />
+          <button id="searchButton">
+            <img src="pawkalinga-photos/search-icon.png" alt="Search">
+          </button>
+        </div>
+      
+        <div class="animal-icons" id="animalIcons"></div>
+      
+        <div id="noResultsGif" class="noResultsGif">
+          <img src="pawkalinga-photos/sad-cat-gif.gif" alt="No results found" />
+          <p>No animals matched your search.</p>
+        </div>
+      
+        <button id="backButton" class="backButton">Back to Browse</button>
+        <button class="cta-button" id="ctaButton">Jump to a call to action section</button>
+      </section>
+  
+      <section class="sectionAlt animal-cards" id = "animalCards"></section>
+  
+      <section class="cta-section" id="ctaSection">
+        <div class="cta-text">
+          <h2> Ready to Adopt?</h2>
+          <p>
+            Every pet deserves a loving home. If you see a pet you're interested in, please fill out an adoption application today!
+          </p>
+          <button class="cta-adopt-button" id="ctaAdoptButton"> Adoption process here</button>
+        </div>
+        <div class="cta-image">
+          <img src="pawkalinga-photos/cat-adopt.jpg" alt="Cute Cat Ready for Adoption">
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="pawkalinga-photos/pawkalinga-logo.png">
+        </div>
+        <p> © 2025 Pawkalinga. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <button id="backToTop" title="Go to top">Back to Top</button>
+
+    <script src="pawkalinga-scripts/browse-script.js"></script>
+    <script src = "pawkalinga-scripts/menu-top.js"></script>
+  </body>
+</html>

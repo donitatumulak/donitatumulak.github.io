@@ -1,0 +1,73 @@
+/* MEDIA QUERY FOR ADOPT PAGE */
+@media (max-width: 768px) {
+  /* Adoption Steps Section */
+  .adoption-steps h1 {
+    padding: 0 2rem; 
+  }
+  
+  .adoption-steps p,
+  .browse-step p {
+    padding: 0 2rem; 
+  }
+  
+  /* First Step Section */
+  .browse-step {
+    margin: 20px auto;
+    padding: 1.5rem 2rem; 
+  }
+
+  .browse-step h2 {
+    padding: 0 10px; 
+  }
+
+  /* Second Step Section */
+  .form-info {
+    margin: 10px auto;
+    padding: 1.5rem; 
+    text-align: center;
+  }
+
+  .form-info p {
+    text-align: justify;
+  }
+
+  /* Third, Fourth, Fifth Step Section */
+  .third-step-container,
+  .fourth-step-container,
+  .fifth-step-container {
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0; 
+    padding: 2rem; 
+  }
+
+  .meet-and-greet,
+  .interview-fee,
+  .congratulations,
+  .image-container {
+    flex: 1 1 100%;
+    width: 100%;               
+    min-width: unset;         
+    margin: 0;              
+    padding: 10px; 
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .interview-fee p,
+  .meet-and-greet p,
+  .congratulations p {
+    text-align: justify;
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  .image-container1 img,
+  .image-container2 img {
+    max-height: 250px; 
+    margin: 10px 0; 
+    display: block;
+    width: 100%;
+    object-fit: cover; 
+  }
+}

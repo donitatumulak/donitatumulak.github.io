@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adopt Page</title>
+    <link rel="stylesheet" href="pawkalinga-styles/general-style.css">
+    <link rel="stylesheet" href="pawkalinga-styles/adopt-style.css" />
+    <link rel="stylesheet" href="pawkalinga-styles/adopt-mq.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Fredoka:wght@300..700&family=Patrick+Hand&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo-container">
+          <img src="pawkalinga-photos/pawkalinga-logo.png" alt="Pawkalinga Logo" class="nav-logo" />
+        </div>
+        <div class="menu-toggle" id="mobileMenu">&#9776;</div>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="browse.html">Browse</a></li>
+          <li><a href="adopt.html">Adopt</a></li>
+          <li><a href="volunteer.html">Volunteer or Donate</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="adoption-steps">
+        <h1>Ready to Adopt? Here's How!</h1>
+        <p>
+          Adopting a pet is a rewarding experience. Follow these easy steps to find your perfect
+          companion and give them a loving forever home.
+        </p>
+      </section>
+    
+      <section class="sectionAlt browse-step">
+        <h2>First step: Browse Available Animals</h2>
+        <button class="browse-button" id="browseButton">To browse click here</button>
+        <p>
+          Take a look at our available animals and choose the one that&apos;s the best fit for you.
+        </p>
+      </section>
+    
+      <section class="form-container">
+        <form id="adoptionForm" class="volunteer-adoption-form">
+        <input type="text" name="fullName" placeholder="Full Name" required />
+        <input type="email" name="email" placeholder="Email address" required />
+        <input type="tel" name="phone" placeholder="Phone Number" required />
+        <input type="text" name="interestedAnimal" placeholder="Interested Animal" />
+        <textarea name="reason" class="auto-expand" rows="5" placeholder="Why do you want to adopt this animal?"></textarea>
+
+          <div class="radio-button-group">
+            <p>Do you have any animals at home?</p>
+            <label>
+              <input type="radio" name="has-animals" value="Yes"> Yes
+            </label>
+            <label>
+              <input type="radio" name="has-animals" value="No"> No
+            </label>
+            <p>Are you familiar with pet care?</p>
+            <label>
+              <input type="radio" name="familiar-pet-care" value="Yes"> Yes
+            </label>
+            <label>
+              <input type="radio" name="familiar-pet-care" value="No"> No
+            </label>
+          </div>
+    
+          <div class="interview">
+            <label for="interview-date">Preferred Interview Date</label>
+            <input type="date" name="interviewDate" id="interview-date" required>
+          </div>
+          <button type="submit" class="submit-button">Submit</button>
+        </form>
+    
+        <div class="form-info">
+          <h2>Second Step: Fill Out an Initial Adoption Form</h2>
+          <p>
+            Once you've found the pet you love, fill out our initial adoption application to get started.
+            The form helps ensure the right match for both the pet and the adopter.
+          </p>
+        </div>
+      </section>
+    
+      <div class="sectionAlt third-step-container">
+        <section class="meet-and-greet">
+        <h2>Third Step: Meet and Greet</h2>
+          <p>We'll arrange a meet and greet with your chosen animal to make sure it's a good match for everyone. This is your chance to bond with your potential new companion in a relaxed, comfortable setting. Our team will be there to guide the interaction, answer any questions you may have, and provide tips on making the transition smoother for both you and the animal.</p>
+        </section>
+        <div class="image-container1">
+          <img src="pawkalinga-photos/meet-and-greet.jpg" alt="Adoption meeting" />
+        </div>
+      </div>
+    
+      <div class="fourth-step-container">
+        <div class="image-container2">
+          <img src="pawkalinga-photos/happy-adopters.jpg" alt="Adoption meeting" />
+        </div>
+        <section class="interview-fee">
+          <h2>Fourth Step: Personal Interview and Adoption Fee</h2>
+          <p>Once the meet and greet is successful, we&apos;ll conduct an in-person interview to make sure of the animal&apos;s safety.
+            An adoption fee is required to help cover costs. Specifications about the fee are revealed after the approval
+            of your adoption.
+          </p>
+        </section>
+      </div>
+    
+      <div class="sectionAlt fifth-step-container">
+        <section class="congratulations">
+          <h2>Fifth Step: Take Your New Friend Home</h2>
+          <p>
+            Congratulations! Once everything is confirmed, you can bring your new best friend home. We&apos;ll provide support
+            and guidance as you adjust to life with your pet.
+          </p>
+        </section>
+        <div class="image-container1">
+          <img src="pawkalinga-photos/happy-girl-with-pets.jpg" alt="Adopter with new pet">
+        </div>
+      </div>  
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="pawkalinga-photos/pawkalinga-logo.png">
+        </div>
+        <p> © 2025 Pawkalinga. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <button id="backToTop" title="Go to top">Back to Top</button>
+
+    <script src="pawkalinga-scripts/adopt-script.js"></script>
+    <script src = "pawkalinga-scripts/menu-top.js"></script>
+  </body>
+</html>

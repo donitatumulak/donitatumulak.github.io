@@ -1,0 +1,107 @@
+/* MEDIA QUERY FOR ABOUT US PAGE */
+@media (max-width: 768px) {
+  /* Default Page Styling */
+  .about-us-elements,
+  .our-mission,
+  .mission-statement {
+    padding: 2rem 2rem; 
+  }
+
+  /* About Us Section */
+  .about-us-elements img {
+    max-width: 90%;
+    margin: 0 auto 20px;
+    display: block;
+  }
+
+  /* Mission Section */
+  .mission-statement,
+  .contact-text {
+    width: 95%;
+    padding: 1.5rem; 
+    margin: 15px auto;
+  }
+
+  /* History & Services Section */
+  .origins-content,
+  .services-content {
+    flex-direction: column;
+    padding: 2rem 4rem; 
+    gap: 0.5rem;
+  }
+
+  .story-text,
+  .services-text {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .image-container {
+    margin-bottom: 0;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto;
+    max-height: 300px; 
+  }
+
+  .caption {
+    margin-bottom: 0;
+  }
+
+  /* Founders Section*/
+  .founders {
+    padding: 3rem; 
+  }
+
+  .founders-container {
+    gap: 15px; 
+  }
+
+  .founder-card {
+    max-width: 80%; 
+    padding: 15px; 
+  }
+
+  .founder-card .name {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .founder-card img {
+    width: 70%;     
+    width: 70%;      
+    max-width: 250px; 
+    height: auto;    
+    margin: 0 auto; 
+    display: block;  
+  }
+
+  /* Location Section */
+  .location p {
+    padding: 0 2rem; 
+  }
+
+  .location img {
+    width: 90%;
+    max-width: 100%;
+  }
+
+  /* Contact Section */
+  .contact-us {
+    max-width: 500px;
+  }
+
+  .contact-details {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap; 
+  }
+
+  .contact-details a {
+  padding: 8px 15px;
+  text-align: center; 
+  }
+
+}
