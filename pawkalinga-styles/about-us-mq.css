@@ -83,7 +83,7 @@
     padding: 0 2rem; 
   }
 
-  .location img {
+    .location iframe {
     width: 90%;
     max-width: 100%;
   }
