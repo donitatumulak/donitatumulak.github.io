@@ -90,3 +90,100 @@
     height: auto; 
   }
 }
+
+/* MEDIA QUERY FOR BROWSE PAGE */
+@media (max-width: 480px) {
+  /* Introduction to Browse Page Section */
+  .browse-intro {
+    margin-top: 0.8rem; 
+  }
+
+  .browse-intro p {
+    padding: 0 1rem; 
+  }
+
+  .search-bar {
+    gap: 3px; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .search-bar input {
+    width: 85%; 
+    height: fit-content;
+    margin: 0;
+    font-size: 0.9rem;
+    padding: 8px; 
+  }
+
+  .search-bar button {
+    padding: 8px 12px; 
+    width: auto;
+    flex-shrink: 0;
+    margin: 0;
+  }
+
+  .search-bar button img {
+    width: 10px; 
+    height: 10px; 
+  }
+
+  .animal-icons {
+    padding: 0 1rem; 
+  }
+
+  .animal-icons img {
+    width: 40px; 
+    height: 40px; 
+  }
+
+  /* Animal Cards Section */
+  .animal-cards {
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 10px;
+    padding: 10px 5px;
+  }
+
+  .card {
+    padding: 10px; 
+    width: 65%; 
+  }
+
+  .animal-detail img {
+    height: auto; 
+    max-height: 150px;
+    width: 100%; 
+    object-fit: cover; 
+  }
+
+  /* CTA Section */
+  .cta-section {
+    padding: 30px 20px; 
+  }
+
+  .cta-section h2 {
+    font-size: 3rem;
+  }
+
+  .cta-text p {
+    text-align: justify;
+    padding: 0 1rem;
+  }
+
+  .cta-text button {
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+  }
+
+  .cta-button {
+    padding: 8px 16px; 
+    width: fit-content; 
+    margin: 0 auto;      
+  }
+
+  /* No Result Gif */
+  .noResultsGif img {
+    max-width: 100%;
+    height: auto; 
+  }
+}
