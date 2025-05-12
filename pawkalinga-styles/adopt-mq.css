@@ -71,3 +71,78 @@
     object-fit: cover; 
   }
 }
+
+/* MEDIA QUERY FOR ADOPT PAGE */
+@media (max-width: 480px) {
+  /* Adoption Steps Section */
+  .adoption-steps h1 {
+    padding: 1rem; 
+  }
+  
+  .adoption-steps p,
+  .browse-step p {
+    padding: 0 1rem; 
+  }
+  
+  /* First Step Section */
+  .browse-step {
+    margin: 10px auto; 
+    padding: 1rem 1rem; 
+  }
+
+  .browse-step h2 {
+    padding: 0 5px; 
+  }
+
+  /* Second Step Section */
+  .form-info {
+    margin: 5px auto; 
+    padding: 1rem; 
+    text-align: center;
+  }
+
+  .form-info p {
+    text-align: justify;
+    font-size: 0.9rem; 
+  }
+
+  /* Third, Fourth, Fifth Step Section */
+  .third-step-container,
+  .fourth-step-container,
+  .fifth-step-container {
+    flex-direction: column;
+    gap: 15px; 
+    margin: 15px 0; 
+    padding: 1.5rem; 
+  }
+
+  .meet-and-greet,
+  .interview-fee,
+  .congratulations,
+  .image-container {
+    flex: 1 1 100%;
+    width: 100%;               
+    margin: 0;              
+    padding: 5px; 
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .interview-fee p,
+  .meet-and-greet p,
+  .congratulations p {
+    text-align: justify;
+    margin: 5px 0; 
+    line-height: 1.4; 
+    font-size: 0.9rem; 
+  }
+  
+  .image-container1 img,
+  .image-container2 img {
+    max-height: 200px; 
+    margin: 5px 0; 
+    display: block;
+    width: 100%;
+    object-fit: cover; 
+  }
+}
