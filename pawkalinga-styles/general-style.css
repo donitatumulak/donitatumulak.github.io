@@ -435,3 +435,112 @@ footer p {
     padding: 15px 0;  
   }
 }
+
+/* MEDIA QUERY FOR GENERAL STYLE */
+@media (max-width: 480px) {
+  header {
+    height: 80px; /* Reduced height for smaller screens */
+  }
+  
+  .menu-toggle {
+    display: block;
+    z-index: 1001;
+    margin-top: 0.5rem; /* Reduced margin */
+  }
+
+  .nav-list {
+    width: 200px; /* Reduced width */
+    padding: 1.5rem 1rem; /* Adjusted padding */
+  }
+
+  .nav-list li {
+    margin: 0.5rem 0; /* Reduced margin */
+  }
+
+  .nav-list li a {
+    font-size: 1.2rem; /* Decreased font size for better fit */
+    padding: 8px; /* Adjusted padding */
+  }
+
+  .nav-list li a:hover {
+    color: lightgoldenrodyellow;
+    background-color: #44492b;   
+  }
+
+  .nav-logo {
+    margin-top: 5px; /* Reduced margin */
+    height: 50px; /* Reduced height */
+  }
+
+  h1 { 
+    font-size: 3rem; /* Decreased font size */
+    line-height: 1.2;
+  }
+  
+  h2 { 
+    font-size: 2.5rem; /* Decreased font size */
+    line-height: 1.2;
+  }
+  
+  h3 { 
+    font-size: 2rem; /* Decreased font size */
+    line-height: 1.2;
+  }
+ 
+  p, li, footer p { 
+    font-size: 1rem; /* Decreased font size for better readability */
+  }
+
+  .browse-intro,
+  .adoption-steps,
+  .section-introduction,
+  .about-us {
+    padding-top: 2rem; /* Reduced padding */
+  }
+
+  .volunteer-adoption-form input,
+  .volunteer-adoption-form textarea,
+  .volunteer-adoption-form label {
+    font-size: 0.9rem; /* Decreased font size */
+  }
+
+  .form-container {
+    padding: 15px 5px; /* Adjusted padding */
+    gap: 15px; /* Reduced gap */
+    width: 95%; /* Increased width for better use of space */
+  }
+
+  .volunteer-adoption-form {
+    padding: 15px; /* Adjusted padding */
+  }
+
+  button,
+  .submit-button, 
+  #backToTop {
+    width: fit-content;         
+    margin: 20px auto 0 auto; /* Reduced margin */
+    padding: 10px 20px; /* Adjusted padding */
+    font-size: 1rem; /* Decreased font size */
+  }
+
+  .footer-logo {
+    font-size: 1em; /* Decreased font size */
+    margin-bottom: 5px; /* Reduced margin */
+  }
+
+  .footer-logo img {
+    max-width: 80%; /* Adjusted for better visibility */
+    height: auto;
+    margin: 0 auto;  
+  }
+
+  .footer-content p {
+    font-size: 0.8em; /* Decreased font size for better readability */
+    margin: 5px 0; /* Reduced margin */
+  }
+
+  footer {
+    padding: 10px 0; /* Reduced padding */
+  }
+}
+
