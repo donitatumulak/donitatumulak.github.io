@@ -125,3 +125,135 @@
     padding: 12px 24px; 
   }
 }
+
+/* MEDIA QUERY FOR VOLUNTEER PAGE */
+@media (max-width: 480px) {
+  /* Page Introduction */
+  .section-introduction img {
+    max-width: 70%; 
+    height: auto;
+    margin-top: 5px; 
+    object-fit: cover;
+    box-shadow: none;
+  }
+
+  /* Why-Help Section */
+  .why-help-container {
+    flex-direction: column;  
+    gap: 15px; 
+    margin: 15px auto;
+    padding: 1.5rem; 
+  }
+
+  .why-help,
+  .image-container {
+    flex: 1;
+    min-width: 100%;       
+    margin: 0 0 5px 0; 
+  }
+
+  .why-help p {
+    text-align: justify;
+    font-size: 0.9rem; 
+  }
+
+  .image-container img {
+    max-width: 90%; 
+    height: auto;
+    margin: 5px auto; 
+    display: block;    
+  }
+
+  .text {
+    margin: 10px; 
+    text-align: center;  
+  }
+
+  /* Become a Volunteer Section */
+  .volunteer-info {
+    flex: 1;
+    padding: 1rem; 
+  }
+
+  .volunteer-info h2 {
+    text-align: center;
+  }
+
+  .volunteer-info ul,
+  .donate-text ul {
+    padding-left: 2rem; 
+  }
+
+  .volunteer-info p {
+    padding-left: 0.5rem; 
+    font-size: 0.9rem; 
+  }
+
+  .volunteer-info button {
+    display: block;       
+    margin: 5px auto;
+  }
+
+  /* Donate Section */
+  .donate-section, .partnerships {
+    padding: 1.5rem;
+  }
+
+  .donate-intro, .partnerships-intro {
+    max-width: 100%;       
+    padding: 0 10px; 
+    margin: 10px auto; 
+    text-align: justify;
+    line-height: 1.4; 
+    font-size: 0.9rem; 
+  }
+
+  .donate-methods,
+  .partners {
+    flex-direction: column; 
+    gap: 10px; 
+  }
+
+  .donate-box {
+    width: 90%; 
+    max-width: 100%;        
+    margin: 0 auto 10px; 
+  }
+
+  /* Partners Section */
+  .partners {
+    display: flex;
+    flex-direction: column;     
+    align-items: center;       
+    justify-content: center;    
+    gap: 15px;                  
+  }
+
+  .clickable-images {
+    display: flex;
+    justify-content: center;   
+    width: 100%;               
+  }
+
+  .partner-logo {
+    max-width: 100%;            
+    height: auto;
+  }
+
+  /* Contact Information Section */
+  .contact {
+    padding: 10px 5px; 
+    text-align: center;
+  }
+
+  .contact h2 {
+    margin: 10px 0;
+  }
+
+  .contact button {
+    margin: 0.5rem; 
+    width: auto;        
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
