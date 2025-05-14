@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ - Pawkalinga</title>
+    <link rel="stylesheet" href="pawkalinga-styles/general-style.css" />
+    <link rel="stylesheet" href="pawkalinga-styles/faq-style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Fredoka:wght@300..700&family=Patrick+Hand&display=swap" rel="stylesheet"/>
+</head>
+<body>
+   <header>
+      <nav>
+        <div class="logo-container">
+          <a href="index.html">
+             <img src="pawkalinga-photos/pawkalinga-logo.png" alt="Pawkalinga Logo" class="nav-logo" />
+          </a>
+        </div>
+        <div class="menu-toggle" id="mobileMenu">&#9776;</div>
+        <ul class="nav-list" id = "navList">
+          <li><a href="browse.html">Browse</a></li>
+          <li><a href="adopt.html">Adopt</a></li>
+          <li><a href="volunteer.html">Volunteer or Donate</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+  <main>
+  <div class="faq-section">
+    <h2 class="faq-title">Frequently Asked Questions</h2>
+
+    <div id="faq-list">
+      <div class="faq">
+        <div class="faq-question">What does Pawkalinga do?</div>
+        <div class="faq-answer">We rescue, feed, provide medical care, and house stray animals — and prepare them for adoption. Our work also includes community outreach, education, and animal welfare advocacy.</div>
+      </div>
+
+      <div class="faq">
+        <div class="faq-question">How can I adopt a pet?</div>
+        <div class="faq-answer">You can browse our available rescues on our website and apply through the adoption form. Once approved, we'll schedule a meet-and-greet and guide you through the adoption process.</div>
+      </div>
+
+      <div class="faq">
+        <div class="faq-question">Can I volunteer or donate?</div>
+        <div class="faq-answer">Absolutely! We welcome volunteers and donors. Whether you want to foster, help at events, or donate supplies or funds, your support helps us save more lives.</div>
+      </div>
+
+      <div class="faq">
+        <div class="faq-question">Do you offer medical services?</div>
+        <div class="faq-answer">We collaborate with local vets to ensure all our rescues receive vaccinations, spaying/neutering, and necessary treatments before adoption. We do not currently offer veterinary services to the public.</div>
+      </div>
+
+      <div class="faq">
+        <div class="faq-question">How do you spread awareness?</div>
+        <div class="faq-answer">We use social media, campaigns, and community events to raise awareness about responsible pet ownership and animal welfare issues.</div>
+      </div>
+    </div>
+
+    <div class="question-form">
+      <h3>Have a question? Ask us!</h3>
+      <input type="text" id="user-question" placeholder="Type your question here..." />
+      <button onclick="submitQuestion()">Submit</button>
+    </div>
+  </div>
+ </main>
+
+   <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="pawkalinga-photos/pawkalinga-logo.png" />
+        </div>
+        <p>© 2025 Pawkalinga. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <button id="backToTop" title="Go to top">Back to Top</button>
+
+   <script src="pawkalinga-scripts/faq-script.js"></script>
+  <script src = "pawkalinga-scripts/menu-top.js"></script>
+</body>
+</html>
