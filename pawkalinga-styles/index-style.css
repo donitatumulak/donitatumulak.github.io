@@ -168,3 +168,50 @@
   border-radius: 10px;
   margin: 5px;
 }
+
+/* For the fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* For the slide-up animation */
+@keyframes slideUp {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Apply the fade-in effect to all sections */
+section, .rescue-photo, .welcome-photo, .mission-photo, .footer-logo img {
+  opacity: 0;
+  animation: fadeIn 1.5s forwards;
+}
+
+/* Apply the slide-up effect for sections that should appear one by one */
+.welcome-section, .mission-section, .rescue-story, .life-at-shelter-section {
+  animation: slideUp 1.5s ease-out forwards;
+  animation-delay: 0.5s; 
+}
+
+/* For images with different effects */
+.welcome-photo, .mission-photo, .rescue-photo {
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 1s; 
+}
+
+/* Apply the animation to buttons */
+button {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 1.5s; 
+}
