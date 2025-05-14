@@ -223,3 +223,30 @@
 .contact-details a::before {
   margin-right: 8px;                 
 }
+
+/* Common animation keyframes */
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Hidden by default */
+.about-us,
+.our-mission {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Trigger animation when visible */
+.about-us.visible,
+.our-mission.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
