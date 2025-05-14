@@ -16,15 +16,17 @@
     <header>
       <nav>
         <div class="logo-container">
-          <img src="pawkalinga-photos/pawkalinga-logo.png" alt="Pawkalinga Logo" class="nav-logo" />
+            <a href="index.html">
+             <img src="pawkalinga-photos/pawkalinga-logo.png" alt="Pawkalinga Logo" class="nav-logo" />
+          </a>
         </div>
         <div class="menu-toggle" id="mobileMenu">&#9776;</div>
         <ul class="nav-list">
-          <li><a href="index.html">Home</a></li>
           <li><a href="browse.html">Browse</a></li>
           <li><a href="adopt.html">Adopt</a></li>
           <li><a href="volunteer.html">Volunteer or Donate</a></li>
           <li><a href="about-us.html">About Us</a></li>
+          <li><a href="faq.html">FAQ</a></li>
         </ul>
       </nav>
     </header>
@@ -57,17 +59,18 @@
           <div class="radio-button-group">
             <p>Do you have any animals at home?</p>
             <label>
-              <input type="radio" name="has-animals" value="Yes"> Yes
+              <input type="radio" name="has_animals" value="1" required> Yes
             </label>
             <label>
-              <input type="radio" name="has-animals" value="No"> No
+              <input type="radio" name="has_animals" value="0"> No
             </label>
+
             <p>Are you familiar with pet care?</p>
             <label>
-              <input type="radio" name="familiar-pet-care" value="Yes"> Yes
+              <input type="radio" name="familiar_pet_care" value="1" required> Yes
             </label>
             <label>
-              <input type="radio" name="familiar-pet-care" value="No"> No
+              <input type="radio" name="familiar_pet_care" value="0"> No
             </label>
           </div>
     
